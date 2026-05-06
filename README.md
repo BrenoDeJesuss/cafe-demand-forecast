@@ -1,4 +1,4 @@
-# ☕ Cafe Demand Forecast & AI Inventory Manager
+☕ Cafe Demand Forecast & AI Inventory Manager
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
@@ -50,3 +50,16 @@ O sistema é dividido em dois serviços principais que se comunicam de forma ass
 1. Clone este repositório:
    ```bash
    git clone [https://github.com/BrenoDeJesuss/cafe-demand-forecast.git](https://github.com/BrenoDeJesuss/cafe-demand-forecast.git)
+
+    Configure as credenciais do banco de dados e a chave secreta do JWT no arquivo application.properties (ou .env).
+
+    Execute o projeto com sua IDE favorita ou via terminal:
+    Bash
+
+    mvn spring-boot:run
+
+🧠 Lógica de Negócio e Impacto (Business Value)
+
+Este projeto substitui a contagem manual e reativa de inventário por um modelo preditivo automatizado. Ao atuar como um Analista/Engenheiro de Dados autônomo, o Agente de IA reduz o desperdício (overstocking) e previne a falta de insumos críticos (stockouts), garantindo que a operação da cafeteria flua sem interrupções e aumentando a rentabilidade.
+
+Desenvolvido por Breno de Jesus Nunes - Unindo Gestão Operacional com Inteligência de Dados.
